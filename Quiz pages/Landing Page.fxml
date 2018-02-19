@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="874.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutY="-2.0" prefHeight="127.0" prefWidth="607.0" tabClosingPolicy="ALL_TABS">
+         <tabs>
+            <Tab text="Saint Louis University">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="8.0" prefWidth="607.0">
+                     <children>
+                        <Label layoutX="117.0" layoutY="25.0" prefHeight="48.0" prefWidth="374.0" text="School of Accountancy and Business Management">
+                           <font>
+                              <Font name="Arial Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+      <DialogPane contentText="1. What is your instructor's name?" layoutX="35.0" layoutY="204.0" prefHeight="96.0" prefWidth="527.0" />
+      <RadioButton layoutX="105.0" layoutY="261.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="87.0" text="Maria Juana" />
+      <RadioButton layoutX="251.0" layoutY="261.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Juan Dela Cruz" />
+      <RadioButton layoutX="393.0" layoutY="261.0" mnemonicParsing="false" prefWidth="135.0" selected="true" text="Pedro Penduko" />
+      <DialogPane contentText="2. Bakit ka nag-accountancy?" layoutX="35.0" layoutY="300.0" prefHeight="96.0" prefWidth="527.0" />
+      <RadioButton layoutX="393.0" layoutY="357.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="135.0" text="None of the above" />
+      <RadioButton layoutX="255.0" layoutY="357.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="87.0" selected="true" text="Lakampake" />
+      <RadioButton layoutX="105.0" layoutY="357.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Parents Choice" />
+      <ScrollBar layoutX="580.0" layoutY="26.0" orientation="VERTICAL" prefHeight="848.0" prefWidth="27.0" visibleAmount="25.0" />
+      <AnchorPane layoutX="16.0" layoutY="396.0" prefHeight="208.0" prefWidth="565.0">
+         <children>
+            <CheckBox layoutX="94.0" layoutY="137.0" mnemonicParsing="false" selected="true" text="C" />
+            <CheckBox layoutX="93.0" layoutY="108.0" mnemonicParsing="false" selected="true" text="D" />
+            <CheckBox layoutX="93.0" layoutY="82.0" mnemonicParsing="false" text="F" />
+            <CheckBox layoutX="94.0" layoutY="57.0" mnemonicParsing="false" text="Z" />
+            <CheckBox layoutX="94.0" layoutY="164.0" mnemonicParsing="false" selected="true" text="B" />
+            <DialogPane contentText="3. Choose the three letters between A and E" layoutX="22.0" prefHeight="57.0" prefWidth="527.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="139.0" fitWidth="103.0" layoutX="476.0" layoutY="39.0">
+         <image>
+            <Image url="@pp.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="50.0" layoutY="108.0" prefHeight="0.0" prefWidth="187.0" text="2164494">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="138.0" prefHeight="31.0" prefWidth="419.0" text="DIMALUPIG, Paquito F.">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="427.0" layoutY="818.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Next">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <DialogPane contentText="4. Complete the lyrics &quot;Kalimutan mo na  sige, sige" expanded="true" layoutX="46.0" layoutY="583.0" prefHeight="57.0" prefWidth="527.0" />
+      <ComboBox layoutX="327.0" layoutY="599.0" prefWidth="150.0" promptText="Pick here" />
+      <DialogPane contentText="5.                     is the sum of 9 + 1." expanded="true" layoutX="46.0" layoutY="634.0" prefHeight="57.0" prefWidth="527.0" />
+      <ComboBox layoutX="70.0" layoutY="650.0" prefHeight="9.0" prefWidth="58.0" promptText="10" />
+      <DialogPane contentText="6.  Pangit ba ako? Kapalit palit ba ako?" layoutX="46.0" layoutY="691.0" prefHeight="96.0" prefWidth="527.0" />
+      <RadioButton layoutX="105.0" layoutY="739.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Oo" />
+      <RadioButton layoutX="211.0" layoutY="739.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" selected="true" text="Hindi" />
+      <RadioButton layoutX="311.0" layoutY="739.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Pwede" />
+   </children>
+</AnchorPane>
