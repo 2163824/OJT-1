@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie|Calligraffitti|Dancing+Script|Great+Vibes|IBM+Plex+Mono|Josefin+Slab|Kaushan+Script|Pacifico|Quattrocento|Satisfy');
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.body1{
+	margin: 0 auto;
+	
+
+	background-color:#ECF0F1;
+}
+
+.body2{
+	background-color:#ECF0F1;
+}
+
+.container{
+	width:530px;
+	height:310px;
+	text-align:center;
+	margin:0 auto;
+	opacity:0.9;
+	border-radius:05px;
+	margin: 0 auto;
+	margin-top:160px;
+	background-image:url("image1.jpg");	
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+.container img{
+	width:150px;
+	height:150px;
+	margin-top:-70px;
+	text-align:center;
+}
+
+.form_input input{
+	height:50px;
+	margin-top:20px;
+	margin-bottom:10px;
+	width:250px;
+	font-size:15px;
+}
+
+
+.btn-login:hover{
+	color:white;
+}
+
+.container a{
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+}
+
+.container a:hover{
+	color:#D4AC0D;
+}
+
+.container button{
+	width:120px;
+	font-size:25px;
+	background-color:#17202A;
+	border:none;
+	color:white;
+	margin-top:10px;
+	height:40px;
+	border-radius:4px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.container button:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+}
+
+.logout{
+	background-color:#17202A;
+	width:100%;
+	height:13%;
+}
+
+.logout1{
+	float:left;
+	font-size:37px;
+	color:white;
+	margin-left:8%;
+	margin-top:20px;
+	
+}
+
+.logout1 p{
+	font-family: 'Calligraffitti', cursive;
+}
+
+.logout2 button{
+	width:90px;
+	font-size:25px;
+	background-color:#D4AC0D;
+	border:none;
+	color:white;
+	margin-top:20px;
+	float:right;
+	height:40px;
+	margin-right:80px;
+	border-radius:4px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.logout2 button:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+}
+
+nav{
+	background-color:white;
+	height:8%;
+	width:100%;
+}
+
+nav a{
+	text-decoration:none;
+	color:#17202A;
+	font-size:20px;
+	font-family: 'Hind Siliguri', sans-serif;	
+	line-height:50px;
+}
+
+nav a:hover{
+	color:#D4AC0D;
+}
+
+.navdiv{
+	float:left;
+	width:20%;
+	height:100%;
+	text-align:center;
+	cursor:pointer;
+	
+}
+
+nav .navdiv .active{
+    background-color:#ECF0F1 ;
+	height:100%;border-radius:5px;
+}
+
+.admincontainer th{
+	font-size:20px;
+	font-family: 'Hind Siliguri', sans-serif;
+	padding-left:60px;
+}
+
+
+.admincontainer h2{
+	font-size:28px;
+	text-align:center;
+	font-family: 'Hind Siliguri', sans-serif;
+	margin-bottom:25px;
+}
+
+.admincontainer td{
+	font-size:19px;
+	padding-left:60px;
+	font-family: 'Hind Siliguri', sans-serif;
+	padding-top:8px;
+}
+
+.admincontainer #password{
+	color:#D4AC0D;
+}
+
+.admincontainer{
+	background-color:white;
+	width:54%;
+	height:auto;
+	padding:40px;
+	margin:auto;
+	margin-top:60px;
+	border-radius:10px;
+	margin-bottom:60px;
+}
+
+.admincontainer input{
+	height:45px;
+	margin:auto;
+	width:100%;
+	margin-top:15px;
+	font-size:20px;
+	padding:5px;
+}
+
+.admincontainer .form-control{
+	height:35px;
+	margin:auto;
+	width:40%;
+	margin-top:15px;
+	font-size:20px;
+	padding:5px;
+}
+
+.admincontainer button{
+	width:60px;
+	font-size:20px;
+	text-align:center;
+	background-color:#17202A;
+	border:none;
+	color:white;
+	margin-top:15px;
+	height:35px;
+	border-radius:4px;
+	font-family: 'Indie Flower', cursive;
+	float:right;
+}
+
+.admincontainer button:hover{
+	background-color:#D4AC0D;
+	cursor:pointer;
+}
+
+.admincontainer .remove{
+	color:white;
+	background-color:#A93226;
+	border-radius:4px;
+	width:auto;
+	text-align:center;
+	padding:3px;
+	cursor:pointer;
+}
+
+
+
+.admincontainer .myBtn{
+	background-color:#28B463;
+	width:90px;
+	height:30px;
+	font-size:20px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+ .admincontainer .modal{
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.admincontainer .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.admincontainer .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.admincontainer .close:hover,.admincontainer .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.feedcontainer{
+	background-color:white;
+	width:auto;
+	height:auto;
+	padding:40px;
+	margin:auto;
+	border-radius:10px;
+	margin:90px 300px;
+}
+
+.feedcontainer th{
+	font-size:23px;
+	font-family: 'Hind Siliguri', sans-serif;
+	background-color:#85929E ;
+	color:white;
+}
+
+
+.feedcontainer h2{
+	font-size:28px;
+	text-align:center;
+	font-family: 'Hind Siliguri', sans-serif;
+	margin-bottom:25px;
+}
+
+.feedcontainer td{
+	font-size:25px;
+	font-family: 'Reenie Beanie', cursive;
+	padding:8px 8px;
+	background-color:#FEF5E7 ;
+	text-align:center;
+}
+
+.tablecontainer1{
+	margin:auto;
+	border:2px solid black;
+}
+
+
+
